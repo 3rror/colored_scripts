@@ -19,7 +19,12 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
+require "colored_scripts"
 include ColoredScripts
+
 puts red("Hello world!")
+
 puts bold(red("Bold red text here")
+
+puts green_bg("green background")
 ```
