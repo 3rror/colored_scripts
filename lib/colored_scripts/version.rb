@@ -1,3 +1,3 @@
-module ColoredScripts
-  VERSION = "0.0.1"
+class ColoredScripts
+  VERSION = "0.0.2"
 end

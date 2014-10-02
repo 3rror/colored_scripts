@@ -7,8 +7,8 @@ Gem::Specification.new do |spec|
   spec.name          = "colored_scripts"
   spec.version       = ColoredScripts::VERSION
   spec.authors       = ["Gianluca Andreotti"]
-  spec.email         = ["gianlucaatlas@gmail.com"]
-  spec.summary       = %q{Simplify the use of colors in ruby scripts}
+  spec.email         = ["gianlucaatlas+nospamgem@gmail.com"]
+  spec.summary       = %q{Ultra-minimal library to simplify the use of colors in ruby scripts.}
   #spec.description   = %q{TODO: Write a longer description. Optional.}
   spec.homepage      = ""
   spec.license       = "MIT"

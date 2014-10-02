@@ -1,6 +1,6 @@
 # ColoredScripts
 
-Simplify the use of colors in ruby scripts.
+Ultra-minimal library to simplify the use of colors in ruby scripts.
 
 ## Installation
 
@@ -20,11 +20,38 @@ Or install it yourself as:
 
 ```ruby
 require "colored_scripts"
-include ColoredScripts
+cs = ColoredScripts
 
-puts red("Hello world!")
+puts cs.red("Hello world!")
 
-puts bold(red("Bold red text here")
+puts cs.bold(cs.red("Bold red text here"))
 
-puts green_bg("green background")
+puts cs.green_bg("green background")
 ```
+
+## All options:
+
+* bright
+* faint
+* underline
+* blink
+* exchange
+* hide
+* black
+* red
+* green
+* yellow
+* blue
+* magenta
+* cyan
+* white
+* default
+* black_bg
+* red_bg
+* green_bg
+* yellow_bg
+* blue_bg
+* magenta_bg
+* cyan_bg
+* white_bg
+* default_b
