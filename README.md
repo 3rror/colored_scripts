@@ -31,7 +31,7 @@ puts cs.green_bg("green background")
 
 ## All options:
 
-* bright
+* bright / bold
 * faint
 * underline
 * blink
