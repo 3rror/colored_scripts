@@ -29,7 +29,7 @@ class ColoredScripts
     cyan_bg:    46,
     white_bg:   47,
     default_bg: 49,
-    bold: 1 # alias
+    bold:       1   # alias
   }
 
   def self.gen_string(text, option)
