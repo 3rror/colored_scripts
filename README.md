@@ -1,5 +1,7 @@
 # ColoredScripts
 
+**WARNING: this gem is deprecated!**
+
 Ultra-minimal library to simplify the use of colors in ruby scripts.
 
 ## Installation

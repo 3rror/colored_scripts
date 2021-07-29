@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["gianlucaatlas [delete me] @gmail.com"]
   spec.summary       = %q{Ultra-minimal library to simplify the use of colors in ruby scripts.}
   #spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/3rror/colored_scripts"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -18,6 +18,8 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.6"
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency "bundler", "~> 2.2", ">= 2.2.10"
+  spec.add_development_dependency "rake", "~> 12.3", ">= 12.3.3"
+
+  spec.post_install_message = "WARNING: This gem is deprecated!"
 end
